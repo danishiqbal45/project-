@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* :root{
+    --main-bg-color:red;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-family: 'Lato', sans-serif;
+    background: #000;
+
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+ width: 75px;
+ padding: 17px 15px;
+}
+nav ul {
+   
+    height: 50px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+/* text ma hover garda bold huncha */
+nav ul li a:hover{
+    font-weight: bolder;
+}
+nav{
+    display: flex;
+
+}
+.searchbar{
+    display: flex;
+    align-items:center ;
+    
+
+}
+.searchbar input{
+    width: 380px;
+    height: 27px;
+    
+    padding-left: 30px;
+}
+
+.container{
+    min-height: calc(100vh - 50px - 12vh);
+}
+
+
+
+footer{
+    height: 12vh;
+    background: #000;
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+}
