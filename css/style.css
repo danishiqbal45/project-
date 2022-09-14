@@ -55,6 +55,13 @@ nav{
     
     padding-left: 30px;
 }
+.slider{
+    height: 300px;
+    width:80vw;
+    margin:20px auto;
+   
+}
+
 
 .container{
     min-height: calc(100vh - 50px - 12vh);
