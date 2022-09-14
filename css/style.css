@@ -1,75 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 /* :root{
     --main-bg-color:red;
 } */
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     font-family: 'Lato', sans-serif;
     background: #000;
 
-    
+
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
-    
+
 }
-.logo img{
- width: 75px;
- padding: 17px 15px;
+
+.logo img {
+    width: 75px;
+    padding: 17px 15px;
 }
+
 nav ul {
-   
+
     height: 50px;
 }
+
 nav ul li {
     list-style: none;
     display: inline-block;
     padding: 15px 23px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
-    color:white;
+    color: white;
 }
+
 /* text ma hover garda bold huncha */
-nav ul li a:hover{
+nav ul li a:hover {
     font-weight: bolder;
 }
-nav{
+
+nav {
     display: flex;
 
 }
-.searchbar{
+
+.searchbar {
     display: flex;
-    align-items:center ;
-    
+    align-items: center;
+
 
 }
-.searchbar input{
-    width: 380px;
+
+.searchbar input {
+    width: 40vw;
     height: 27px;
-    
+
     padding-left: 30px;
 }
-.slider{
-    height: 300px;
-    width:80vw;
-    margin:20px auto;
-   
+
+.slider {
+    height: 60vh;
+    width: 80vw;
+    margin: 20px auto;
+    overflow: hidden;
 }
 
+.card {
+    margin: -90px 0px 75px 40px;
 
-.container{
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+
+}
+
+.card-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.card p {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+}
+
+.m1 {
+    margin-bottom: 8px;
+}
+
+.container {
     min-height: calc(100vh - 50px - 12vh);
 }
 
 
 
-footer{
+footer {
     height: 12vh;
     background: #000;
     color: whitesmoke;
