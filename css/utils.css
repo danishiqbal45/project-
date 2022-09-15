@@ -6,8 +6,10 @@
 
 .btn {
 
-    margin-left: 12px;
-    padding: 4px 8px;
+    /* margin-left: 12px;
+    padding: 4px 8px; */
+    margin-left: 1vw;
+    padding: 1vh 1vh;
     cursor: pointer;
     font-weight: 500px;
 

@@ -52,6 +52,14 @@ nav {
 
 }
 
+header {
+    color: black;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+
+}
+
 .searchbar {
     display: flex;
     align-items: center;
@@ -60,17 +68,19 @@ nav {
 }
 
 .searchbar input {
-    width: 40vw;
-    height: 27px;
+    width: 30vw;
+    height: 4vh;
 
     padding-left: 30px;
 }
 
 .slider {
-    height: 60vh;
-    width: 80vw;
-    margin: 20px auto;
+    height: 90vh;
+    width: 120vw;
+    margin: 20px 260px;
     overflow: hidden;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .card {
@@ -108,7 +118,10 @@ h2 {
 
 .container {
     min-height: calc(100vh - 50px - 12vh);
+
+    margin-top: 90px;
 }
+
 
 
 
